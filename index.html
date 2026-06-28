@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My HB 💙</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="background">
+        <div class="stars"></div>
+        <div class="glow glow1"></div>
+        <div class="glow glow2"></div>
+    </div>
+
+    <!-- Main Card -->
+    <div class="container">
+
+        <h1 id="title">🤖 HB Appreciation Machine</h1>
+
+        <p id="subtitle">
+            Initializing...
+        </p>
+
+        <!-- Progress Bar -->
+        <div class="progressBox">
+
+            <div class="progress">
+
+                <div id="progressFill"></div>
+
+            </div>
+
+            <p id="percent">0%</p>
+
+        </div>
+
+        <!-- Scanner Result -->
+        <div id="scanResult" class="hidden">
+
+            <h2>✅ Human Found</h2>
+
+            <div class="stats">
+
+                <p><b>Name:</b> HB</p>
+                <p><b>Rarity:</b> 1 in 8 Billion</p>
+                <p><b>Kindness:</b> ∞</p>
+                <p><b>Support Level:</b> MAX</p>
+                <p><b>Humor:</b> 98% 😂</p>
+                <p><b>Patience:</b> Legendary</p>
+
+            </div>
+
+            <button id="continueBtn">
+
+                Continue Mission →
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- Scene 2 -->
+    <div id="scene2" class="scene hidden">
+
+        <h1>Hello HB 👋</h1>
+
+        <p id="robotText">
+
+            ...
+
+        </p>
+
+        <button id="nextBtn">
+
+            Open Secret Files
+
+        </button>
+
+    </div>
+
+    <!-- Scene 3 -->
+    <div id="scene3" class="scene hidden">
+
+        <h1>📂 Secret Files</h1>
+
+        <div class="cards">
+
+            <div class="card" onclick="showReason(0)">
+                Reasons
+            </div>
+
+            <div class="card" onclick="showReason(1)">
+                Memories
+            </div>
+
+            <div class="card" onclick="showReason(2)">
+                Emergency Backup
+            </div>
+
+            <div class="card" onclick="showReason(3)">
+                Classified
+            </div>
+
+        </div>
+
+        <div id="messageBox">
+
+            Click a folder.
+
+        </div>
+
+        <button id="finalBtn">
+
+            Final Message 💙
+
+        </button>
+
+    </div>
+
+    <!-- Final -->
+    <div id="scene4" class="scene hidden">
+
+        <h1>🏆 Achievement Unlocked</h1>
+
+        <h2>Best HB Ever</h2>
+
+        <p class="finalText">
+
+            Thank you.
+
+            <br><br>
+
+            For every conversation.
+
+            <br>
+
+            For every laugh.
+
+            <br>
+
+            For every time you stayed.
+
+            <br><br>
+
+            You probably don't realize how much you've helped me.
+
+            <br><br>
+
+            If anyone deserves a thank you...
+
+            <br><br>
+
+            It's you.
+
+            💙
+
+        </p>
+
+        <button id="restart">
+
+            Start Again
+
+        </button>
+
+    </div>
+
+    <canvas id="confetti"></canvas>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
